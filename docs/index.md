@@ -314,7 +314,7 @@ breast-cancer-wdbc-ml/
 
 ## License & Citation
 
-Licensed under the MIT License. See [LICENSE](../LICENSE).
+Licensed under the MIT License. See [LICENSE](https://github.com/Taimisson/breast-cancer-wdbc-ml/blob/main/LICENSE).
 
 ```bibtex
 @software{breast_cancer_wdbc_ml,
@@ -326,6 +326,23 @@ Licensed under the MIT License. See [LICENSE](../LICENSE).
 ```
 
 ---
+
+<div class="portfolio-banner">
+  <div class="portfolio-content">
+    <div class="portfolio-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    </div>
+    <div class="portfolio-text">
+      <p class="portfolio-label">About the Author</p>
+      <h3 class="portfolio-name">Taimisson</h3>
+      <p class="portfolio-desc">Software Developer &amp; Data Science Enthusiast — explore more projects, skills, and contact info on my portfolio.</p>
+    </div>
+    <a href="https://taimisson.vercel.app/" target="_blank" rel="noopener noreferrer" class="portfolio-button">
+      Visit Portfolio
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    </a>
+  </div>
+</div>
 
 <div class="footer-section">
   <p>Built with Python, scikit-learn, and Jupyter</p>

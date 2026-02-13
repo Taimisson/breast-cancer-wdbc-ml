@@ -27,11 +27,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   
-# Include/Exclude
-include:
-  - README.md
-  
+# Exclude
 exclude:
-  - requirements.txt
-  - CITATION.cff
-  - notebooks/
+  - _config.yml
