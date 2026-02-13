@@ -1,0 +1,37 @@
+# GitHub Pages Configuration
+title: "Breast Cancer ML Classification"
+description: "End-to-end machine learning pipeline for breast cancer diagnosis using WDBC dataset"
+author: "Taimisson"
+
+# Theme
+theme: jekyll-theme-cayman
+# Alternative modern themes: minimal, slate, modernist, tactile
+
+# Settings
+baseurl: "/breast-cancer-wdbc-ml"
+url: "https://Taimisson.github.io"
+
+# Navigation
+show_downloads: true
+github:
+  repository_url: "https://github.com/Taimisson/breast-cancer-wdbc-ml"
+  
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Additional settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+# Include/Exclude
+include:
+  - README.md
+  
+exclude:
+  - requirements.txt
+  - CITATION.cff
+  - notebooks/

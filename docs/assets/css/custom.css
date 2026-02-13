@@ -1,0 +1,413 @@
+/* ============================================
+   Custom Styles for Breast Cancer ML Project
+   ============================================ */
+
+/* === Hero Section === */
+.hero-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.hero-section .subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  font-weight: 300;
+}
+
+/* === Badges === */
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.badges img {
+  height: 20px;
+}
+
+/* === Highlights Grid === */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.highlight-card {
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.highlight-card h3 {
+  color: #667eea;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.highlight-card p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* === Pipeline Steps === */
+.pipeline-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: translateX(10px);
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.step-content p {
+  margin: 0;
+  color: #666;
+}
+
+/* === Results Table === */
+.results-table {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.results-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.results-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.results-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.results-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.results-table .best-model {
+  background: #e7f3ff;
+}
+
+.results-table .best-model td {
+  color: #004085;
+}
+
+/* === Insight Box === */
+.insight-box {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.insight-box h4 {
+  margin-top: 0;
+  color: #856404;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.insight-box p {
+  margin-bottom: 0;
+  color: #856404;
+  line-height: 1.7;
+}
+
+/* === Links Section === */
+.links-section {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.button.primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.button.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.button.secondary {
+  background: white;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.button.secondary:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* === Footer Section === */
+.footer-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 3rem;
+  color: #666;
+}
+
+.footer-section p {
+  margin: 0.5rem 0;
+}
+
+/* === Code Blocks === */
+pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+  }
+  
+  .links-section {
+    flex-direction: column;
+  }
+  
+  .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* === General Improvements === */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h2 {
+  color: #667eea;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+h3 {
+  color: #555;
+  margin-top: 2rem;
+}
+
+a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #e9ecef;
+  margin: 3rem 0;
+}
+
+/* === Utility Classes === */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+
+/* === Visualization Styles === */
+.viz-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.viz-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.viz-container img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.viz-caption {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.viz-item {
+  text-align: center;
+}
+
+.viz-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.viz-item img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .viz-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

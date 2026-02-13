@@ -1,5 +1,10 @@
 # Breast Cancer Diagnosis (WDBC) — End-to-End ML Pipeline
 
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Accuracy](https://img.shields.io/badge/Accuracy-96.5%25-brightgreen.svg)](https://github.com/Taimisson/breast-cancer-wdbc-ml)
+[![Status](https://img.shields.io/badge/Status-Complete-success.svg)](https://github.com/Taimisson/breast-cancer-wdbc-ml)
+
 End-to-end machine learning classification pipeline to predict **malignant vs. benign** tumors using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset.
 
 ---
@@ -68,7 +73,66 @@ These features align with morphological differences between malignant and benign
 
 ---
 
-## 🧩 Repository Structure (recommended)
+## 📈 Key Visualizations
+
+<p align="center">
+  <img src="docs/assets/img/viz_01.png" width="100%" alt="Class Distribution">
+  <br><em>Figure 1: Distribution of benign vs. malignant cases in the dataset</em>
+</p>
+
+<p align="center">
+  <img src="docs/assets/img/viz_07.png" width="80%" alt="Confusion Matrix">
+  <br><em>Figure 2: Confusion matrices showing model performance</em>
+</p>
+
+<p align="center">
+  <img src="docs/assets/img/viz_09.png" width="80%" alt="Feature Importance">
+  <br><em>Figure 3: Top 10 most important features (Random Forest)</em>
+</p>
+
+> 📊 **[View full analysis with all visualizations →](https://taimisson.github.io/breast-cancer-wdbc-ml/)**
+
+---
+
+## 🚀 How to Run
+
+### Prerequisites
+- Python 3.8 or higher
+- Jupyter Notebook or JupyterLab
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Taimisson/breast-cancer-wdbc-ml.git
+cd breast-cancer-wdbc-ml
+
+# Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+### Running the Analysis
+
+1. Open `notebooks/projeto_cancer_mama.ipynb`
+2. Run all cells sequentially (Cell → Run All)
+3. View results and visualizations
+
+### Quick Start (Google Colab)
+
+Don't want to install anything? Run it in the cloud:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taimisson/breast-cancer-wdbc-ml/blob/main/notebooks/projeto_cancer_mama.ipynb)
+
+---
+
+## 📁 Repository Structure
 ```txt
 .
 ├── README.md
