@@ -76,27 +76,29 @@ hr {
 }
 
 .page-header .project-name {
+  color: #2d2d3a !important;
   font-weight: 700 !important;
   letter-spacing: -0.02em !important;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.8) !important;
+  text-stroke: 1.5px rgba(255, 255, 255, 0.8) !important;
+  paint-order: stroke fill !important;
   text-shadow: 
-    0 0 20px rgba(255, 255, 255, 0.4),
-    0 2px 4px rgba(0, 0, 0, 0.3),
-    0 4px 12px rgba(0, 0, 0, 0.2),
-    1px 1px 0 rgba(255, 255, 255, 0.3),
-    -1px -1px 0 rgba(255, 255, 255, 0.3),
-    1px -1px 0 rgba(255, 255, 255, 0.3),
-    -1px 1px 0 rgba(255, 255, 255, 0.3) !important;
+    0 0 25px rgba(255, 255, 255, 0.6),
+    0 3px 6px rgba(0, 0, 0, 0.3),
+    0 6px 15px rgba(0, 0, 0, 0.2) !important;
 }
 
 .page-header .project-tagline {
-  font-weight: 400 !important;
+  color: #2d2d3a !important;
+  font-weight: 500 !important;
   letter-spacing: 0.01em !important;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7) !important;
+  text-stroke: 1px rgba(255, 255, 255, 0.7) !important;
+  paint-order: stroke fill !important;
   text-shadow: 
-    0 0 15px rgba(255, 255, 255, 0.35),
-    0 1px 3px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.15),
-    1px 1px 0 rgba(255, 255, 255, 0.25),
-    -1px -1px 0 rgba(255, 255, 255, 0.25) !important;
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.3),
+    0 4px 10px rgba(0, 0, 0, 0.15) !important;
   opacity: 0.95 !important;
 }
 
