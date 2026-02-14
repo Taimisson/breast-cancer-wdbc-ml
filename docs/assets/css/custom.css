@@ -134,21 +134,23 @@ hr {
 
 /* === GitHub Repo Link === */
 .github-repo-link {
-  display: inline-block;
-  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
   transition: transform 0.15s ease, opacity 0.15s ease;
   border: none !important;
 }
 
 .github-repo-link:hover {
-  transform: scale(1.08);
+  transform: scale(1.05);
   opacity: 0.85;
   border: none !important;
 }
 
 .github-repo-link img {
-  height: 36px;
+  height: 32px;
   width: auto;
+  max-width: 120px;
   filter: brightness(0) invert(1);
 }
 
