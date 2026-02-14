@@ -90,12 +90,13 @@ hr {
 /* === Portfolio Banner (Top) === */
 .portfolio-banner {
   margin: -1.5rem 0 2rem 0;
-  background: linear-gradient(135deg, #c2185b 0%, #d84a7a 50%, #e8738a 100%);
+  background: linear-gradient(135deg, rgba(232, 115, 138, 0.55) 0%, rgba(240, 160, 181, 0.5) 50%, rgba(245, 190, 205, 0.45) 100%);
   border-radius: 8px;
   padding: 1.25rem 2rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 2px 12px rgba(194, 24, 91, 0.15);
+  box-shadow: 0 2px 12px rgba(194, 24, 91, 0.08);
+  backdrop-filter: blur(4px);
 }
 
 .portfolio-banner::before {
@@ -123,11 +124,31 @@ hr {
   justify-content: center;
   width: 48px;
   height: 48px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(194, 24, 91, 0.12);
   border-radius: 50%;
   flex-shrink: 0;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #c2185b;
+  border: 1px solid rgba(194, 24, 91, 0.15);
+}
+
+/* === GitHub Repo Link === */
+.github-repo-link {
+  display: inline-block;
+  margin-top: 1rem;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  border: none !important;
+}
+
+.github-repo-link:hover {
+  transform: scale(1.08);
+  opacity: 0.85;
+  border: none !important;
+}
+
+.github-repo-link img {
+  height: 36px;
+  width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .portfolio-text {
@@ -138,13 +159,13 @@ hr {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #c2185b !important;
   margin: 0 0 0.1rem 0 !important;
   font-weight: 600;
 }
 
 .portfolio-name {
-  color: #ffffff !important;
+  color: #2d2d3a !important;
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0 0 0.25rem 0 !important;
@@ -152,7 +173,7 @@ hr {
 }
 
 .portfolio-desc {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: #5a4555 !important;
   font-size: 0.86rem;
   margin: 0 !important;
   line-height: 1.5;
@@ -163,8 +184,8 @@ hr {
   align-items: center;
   gap: 0.5rem;
   padding: 0.65rem 1.4rem;
-  background: #ffffff;
-  color: #c2185b !important;
+  background: #c2185b;
+  color: #ffffff !important;
   border-radius: 6px;
   font-weight: 600;
   font-size: 0.88rem;
@@ -177,10 +198,11 @@ hr {
 
 .portfolio-button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(194, 24, 91, 0.3);
+  background: #ad1457;
   text-decoration: none !important;
   border: none !important;
-  color: #c2185b !important;
+  color: #ffffff !important;
 }
 
 /* === Hero Section === */

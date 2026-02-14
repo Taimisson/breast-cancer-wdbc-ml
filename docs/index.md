@@ -6,6 +6,24 @@ description: "Supervised learning pipeline for binary classification of breast t
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var tagline = document.querySelector('.project-tagline');
+  if (tagline) {
+    var link = document.createElement('a');
+    link.href = 'https://github.com/Taimisson/breast-cancer-wdbc-ml';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = 'github-repo-link';
+    var img = document.createElement('img');
+    img.src = '{{ "/assets/img/github.png" | relative_url }}';
+    img.alt = 'View on GitHub';
+    link.appendChild(img);
+    tagline.parentNode.insertBefore(link, tagline.nextSibling);
+  }
+});
+</script>
+
 <div class="portfolio-banner">
   <div class="portfolio-content">
     <div class="portfolio-icon">
